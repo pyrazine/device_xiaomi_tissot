@@ -41,8 +41,16 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "xiaomi/tissot/tissot_sprout:8.0.0/OPR1.170623.026/8.1.10:user/release-keys"
 
-# PixelExperience Stuffs
+# Pixel Stuffs
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_STOCK_ARCORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+
+# PixelPlusUI
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.ppui.device_name=Mi A1 \
+ro.ppui.version=3.4 \
+ro.ppui.version_code=Onyx \
+ro.ppui.maintainer_name=pyrazine

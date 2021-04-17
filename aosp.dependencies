@@ -1,25 +1,25 @@
 [
  {
    "remote": "github",
-   "repository": "PixelExperience-Devices/device_xiaomi_msm8953-common",
+   "repository": "pyrazine/device_xiaomi_msm8953-common",
    "target_path": "device/xiaomi/msm8953-common",
-   "branch": "eleven"
+   "branch": "aosp"
  },
  {
-   "remote": "pixel-devices-blobs",
-   "repository": "vendor_xiaomi_tissot",
+   "remote": "github",
+   "repository": "pyrazine/vendor_xiaomi_tissot",
    "target_path": "vendor/xiaomi/tissot",
    "branch": "eleven"
  },
- { "remote": "pixel-devices-blobs", 
-   "repository": "vendor_xiaomi_msm8953-common", 
+ { "remote": "github", 
+   "repository": "pyrazine/vendor_xiaomi_msm8953-common", 
    "target_path": "vendor/xiaomi/msm8953-common", 
    "branch": "eleven"
  },
  {
    "remote": "github",
-   "repository": "PixelExperience-Devices/kernel_xiaomi_tissot",
+   "repository": "Evolution-X-Devices/kernel_xiaomi_tissot",
    "target_path": "kernel/xiaomi/msm8953",
-   "branch": "eleven"
+   "branch": "elle"
   }
 ]
